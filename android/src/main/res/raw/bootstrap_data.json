@@ -351,6 +351,7 @@
       "company": "Odnoklassniki, Russia",
       "plusoneUrl": "",
       "name": "Alexey Fyodorov",
+      "thumbnailUrl": "http://jeeconf.com/wp-content/uploads/speakers/fedorov.jpg",
       "id": "fyodorov"
     },
     {
@@ -616,6 +617,13 @@
       "start": "2015-05-22T06:40:00.000Z"
     },
     {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-22T07:00:00.000Z",
+      "end": "2015-05-22T07:45:00.000Z"
+    },
+    {
       "end": "2015-05-22T08:00:00.000Z",
       "title": "Break",
       "subtitle": "",
@@ -662,7 +670,7 @@
       "title": "Whiskey party",
       "type": "break",
       "subtitle": "Enjoy!",
-      "start": "2015-05-22T15:45:00.000Z"
+      "start": "2015-05-22T15:00:00.000Z"
     },
     {
       "end": "2015-05-23T06:40:00.000Z",
@@ -719,6 +727,13 @@
       "type": "break",
       "subtitle": "",
       "start": "2015-05-23T14:50:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-22T08:00:00.000Z",
+      "end": "2015-05-22T08:45:00.000Z"
     }
   ],
   "partners": [],
@@ -988,6 +1003,7 @@
         "ivanov"
       ],
       "description": "We’ll talk about how development methodology has changed in the Java world for the last 15 years. You will see examples of architectural mistakes, frequently involving buzzword heavy hyped technologies, like “NoSQL”, “Microservices” and so on. Often popular “innovative approaches” aren’t more than yet another viewpoint to a known technological business problem. If you are responsible for architectural decisions, the thought “Hey, I’ve seen something like it before!” is helpful and gives you a chance to avoid inventing the wheel from scratch once again.",
+      "title": "Hey, I’ve seen something like it before!",
       "url": "http://jeeconf.com/program/#reinventing-the-wheel",
       "startTimestamp": "2015-05-22T08:00:00.000Z",
       "tags": [
@@ -1048,6 +1064,7 @@
         "masyutin"
       ],
       "description": "Your project got data. Big data. Your business wants using it. On regular basis. Today data varies from mobile app logs to video streams and business needs assistance now and then. How can you get support from technology? You will learn how In-Memory Data Grid, Massively Parallel Processing and Map-Reduce can help. Also you’ll get an overview of a real life use case when sensor data is analized with HP Vertica, Java and R.",
+      "title": "Big Data analysis approaches in Java world",
       "url": "http://jeeconf.com/program/#big-data-analysis",
       "startTimestamp": "2015-05-22T09:00:00.000Z",
       "tags": [
@@ -1087,6 +1104,7 @@
         "fyodorov"
       ],
       "description": "This talk will introduce you in disadvantages of locking, CAS operations, Java atomic variable classes and a couple of nonblocking algoritms: nonblocking stack and nonblocking queue. If we have time, we will also talk about ABA problem. The talk is based on JCIP (§15) and TAoMP (§§ 5, 7, 10, 11). It will be interesting for Java programmers who have heard about CAS and lock-free, but who have no experience in writing non-blocking code.",
+      "title": "Atomics, CAS, and Nonblocking Algorithms",
       "url": "http://jeeconf.com/program/#nonblocking-algorithms",
       "startTimestamp": "2015-05-22T11:30:00.000Z",
       "tags": [
