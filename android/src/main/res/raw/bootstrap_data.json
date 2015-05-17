@@ -617,13 +617,6 @@
       "start": "2015-05-22T06:40:00.000Z"
     },
     {
-      "title": "",
-      "type": "free",
-      "subtitle": "",
-      "start": "2015-05-22T07:00:00.000Z",
-      "end": "2015-05-22T07:45:00.000Z"
-    },
-    {
       "end": "2015-05-22T08:00:00.000Z",
       "title": "Break",
       "subtitle": "",
@@ -732,8 +725,85 @@
       "title": "",
       "type": "free",
       "subtitle": "",
+      "start": "2015-05-22T07:00:00.000Z",
+      "end": "2015-05-22T07:45:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
       "start": "2015-05-22T08:00:00.000Z",
       "end": "2015-05-22T08:45:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-22T09:00:00.000Z",
+      "end": "2015-05-22T09:45:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-22T11:30:00.000Z",
+      "end": "2015-05-22T12:15:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-22T12:30:00.000Z",
+      "end": "2015-05-22T13:15:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-22T14:00:00.000Z",
+      "end": "2015-05-22T14:45:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-23T07:00:00.000Z",
+      "end": "2015-05-23T07:45:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-23T08:00:00.000Z",
+      "end": "2015-05-23T08:45:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-23T09:00:00.000Z",
+      "end": "2015-05-23T09:45:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-23T11:30:00.000Z",
+      "end": "2015-05-23T12:15:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-23T12:30:00.000Z",
+      "end": "2015-05-23T13:15:00.000Z"
+    },
+    {
+      "title": "",
+      "type": "free",
+      "subtitle": "",
+      "start": "2015-05-23T14:00:00.000Z",
+      "end": "2015-05-23T14:45:00.000Z"
     }
   ],
   "partners": [],
@@ -745,11 +815,11 @@
       "description": "You may be hearing a lot of buzz around functional programming. For example, Java 8 recently introduced new features (lambda expressions and method references) and APIs (Streams, Optional and CompletableFutures) inspired from functional ideas such as first-class functions, composition and immutability. However, what does this mean for my existing codebase? In this talk we show how you can refactor your traditional object-oriented Java to using FP features and APIs from Java 8 in a beneficial manner. We will discuss things like: How to adapt to requirement changes using first-class functions. How you can enhance code reusability using currying. How you can make your code more robust by favouring immutability over mutability. How you can reduce null pointer exceptions with Optional.",
       "photoUrl": "",
       "url": "",
-      "startTimestamp": "2015-05-22T07:00:00.000Z",
+      "startTimestamp": "2015-05-22T07:00:00Z",
       "title": "Pragmatic Functional Refactoring with Java 8",
       "youtubeUrl": "",
       "mainTag": "TOPIC_GENERAL_TOPICS",
-      "endTimestamp": "2015-05-22T07:45:00.000Z",
+      "endTimestamp": "2015-05-22T07:45:00Z",
       "color": "#3f51b5",
       "hashtag": "",
       "isLivestream": false,
@@ -767,7 +837,7 @@
       "description": "Correctly configured Garbage Collector is essential for application performance. Unfortunately, there are more than 200 JVM configuration parameters which influence GC in one way or another. Their very obscure names make your command line looks like a magic incantation. The goal of this talk is to demystify Garbage Collector optimisations. I will explain the basics of Garbage Collector tuning, starting from data collection and analysis. I will show how to formulate optimisation hypotheses, choose right parameters for it and verify if they worked. You will not become a GC expert, but you will not be afraid of GC tuning anymore.",
       "title": "First steps in GC tuning",
       "url": "",
-      "startTimestamp": "2015-05-22T08:00:00.000Z",
+      "startTimestamp": "2015-05-22T08:00:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -777,7 +847,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T08:45:00.000Z",
+      "endTimestamp": "2015-05-22T08:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -787,7 +857,7 @@
       "description": "Nashorn, being part of OpenJDK is in unique position of being a JavaScript runtime embedded in the Java ecosystem. I’ll explain some of its under the hood workings (some of them are new in the just released Java 8u40). That understanding will let you get the most performance and functionality out of it when you use it to build Java+JS hybrid services and applications for the JVM.",
       "title": "Making This Rhinoceros Thunder",
       "url": "http://jeeconf.com/program/#nashorn",
-      "startTimestamp": "2015-05-22T09:00:00.000Z",
+      "startTimestamp": "2015-05-22T09:00:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -797,7 +867,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T09:45:00.000Z",
+      "endTimestamp": "2015-05-22T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -808,7 +878,7 @@
       "description": "Everyone knows, that Spring is one of the most powerful and useful frameworks for Java. So how deep are you familiar with it? (1) Level 1 – You know how to use Spring basic without understanding how it actually works under the hood. (2) Level 2 – You understand Spring internals, so you can customize it in accordance with the needs of your project. We offer you an upgrade to Level 3 – to obtain knowledge of very particular but important details about Spring. This session includes many intricate riddles about Spring, which were gathered from real production java projects. Solving them will help you to acquire very important knowledge about Spring and will protect you from different mystical bugs.",
       "title": "Spring Puzzlers",
       "url": "http://jeeconf.com/program/#spring-puzzlers",
-      "startTimestamp": "2015-05-22T11:30:00.000Z",
+      "startTimestamp": "2015-05-22T11:30:00Z",
       "photoUrl": "",
       "mainTag": "TOPIC_GENERAL_TOPICS",
       "id": "s4",
@@ -816,7 +886,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T12:15:00.000Z",
+      "endTimestamp": "2015-05-22T12:15:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -829,7 +899,7 @@
       "description": "Every Java developer knows that concurrency is evil and it is very hard to write correct concurrent code, frequently it breaks all expectations. But what tasks do arise in real commercial Java project except traditional running peace of code async? In this talk I will present some tasks we solved in our projects and solutions we came to. It is practical journey to expand your horizons in applied Java concurrency.",
       "title": "Java Concurrency Applied",
       "url": "http://jeeconf.com/program/#java-concurrency-applied",
-      "startTimestamp": "2015-05-22T12:30:00.000Z",
+      "startTimestamp": "2015-05-22T12:30:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -839,7 +909,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T13:15:00.000Z",
+      "endTimestamp": "2015-05-22T13:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -849,7 +919,7 @@
       "description": "Software developers can be divided into two groups: those who think that their manager sucks, and those who believe that managers are not needed at all. Managers can be divided into two groups too: those who think that they know how to write software and those who know how to deliver the product. In this talk we’ll discuss all points of views to put your mind at ease and come up with a definition of a good manager and a good employee.",
       "title": "My manager sucks!",
       "url": "http://jeeconf.com/program/#my-manager-sucks",
-      "startTimestamp": "2015-05-22T14:00:00.000Z",
+      "startTimestamp": "2015-05-22T14:00:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -859,7 +929,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T14:45:00.000Z",
+      "endTimestamp": "2015-05-22T14:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -869,7 +939,7 @@
       "description": "For the time beeing, there are 4(!) different types of Oracle JDK Updates: Critical Patch Update (CPU), Patch Set Update (PSU), Limited Update (LU) and Feature Release (FR). We will talk about differences between these types of updates, about reasons led Oracle to this model. As a result, you will understand what version of JDK/JRE you should use in production, in test environment and on your develment machine and what to expect from another JDK release.",
       "title": "JDK: CPU, PSU, LU, FR – WTF???",
       "url": "http://jeeconf.com/program/#jdk-versioning",
-      "startTimestamp": "2015-05-22T07:00:00.000Z",
+      "startTimestamp": "2015-05-22T07:00:00Z",
       "photoUrl": "",
       "mainTag": "TOPIC_JDK_WEB",
       "id": "s7",
@@ -877,7 +947,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T07:45:00.000Z",
+      "endTimestamp": "2015-05-22T07:45:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -890,7 +960,7 @@
       "description": "SThe talk is to introduce you to the world of reactive web programming in Scala using Spray toolkit (that’s soon to be Akka HTTP) and Play Framework. I’m going to show you how to get started and why you should have a special place for Spray/Akka HTTP and Play Framework in your toolbox. The talk is very Scala code heavy so expect a mixture of slides and IntelliJ IDEA.",
       "title": "Overview of reactive web application development in Scala with Spray/Akka HTTP and Play",
       "url": "http://jeeconf.com/program/#reactive-web-development-with-spray-akka-and-play",
-      "startTimestamp": "2015-05-22T07:00:00.000Z",
+      "startTimestamp": "2015-05-22T07:00:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -898,7 +968,7 @@
       "id": "s8",
       "room": "track-c",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T07:45:00.000Z",
+      "endTimestamp": "2015-05-22T07:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -908,7 +978,7 @@
       "description": "NP-hard problems play an important role in cryptography and are frequent in graph theory. Large number of computers don’t reduce a complexity of an algorithm, but a solid architecture and design of distributed system can provide good scalability. In this talk, I will solve a non-standard NP-hard problem and will give examples how to solve it in a cluster of machines using Apache ZooKeeper.",
       "title": "Scaling a solution of an NP-hard problem in a cluster of machines using Apache ZooKeeper",
       "url": "http://jeeconf.com/program/#scaling-np-hard-problem-with-zookeeper",
-      "startTimestamp": "2015-05-22T07:00:00.000Z",
+      "startTimestamp": "2015-05-22T07:00:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -918,7 +988,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T07:45:00.000Z",
+      "endTimestamp": "2015-05-22T07:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -928,7 +998,7 @@
       "description": "Have you ever felt irritated that you needed to enter your address on a Web site to find the nearest post office or a movie theatre? Modern Web applications must use geolocation API to automate discovery of the user’s current location. This can dramatically improve the user experience. It’s not just about convenience, the more your app can find out automatically, the more likely people will use it. In this presentation I will discuss different approaches for determining the user’s location on the client side of a Web application. We’ll talk about practical challenges like concurrent requests, timeouts, inaccurate data, dirty data and fallback options. We’ll also look at some technical aspects like futures, async functions and generators. This talk is based on our experience gained while developing and deploying a Web application in production. All code examples will be given in Dart programming language, which directly matches the upcoming syntax of new JavaScript version (a.k.a. ES6).",
       "title": "Know Your User’s Location",
       "url": "http://jeeconf.com/program/#geo-api-usage",
-      "startTimestamp": "2015-05-22T07:00:00.000Z",
+      "startTimestamp": "2015-05-22T07:00:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -938,7 +1008,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T07:45:00.000Z",
+      "endTimestamp": "2015-05-22T07:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -948,12 +1018,12 @@
       "description": "Most engineers face problems that are new to them from time to time. Sometimes reading the docs is enough to solve it. Sometimes, there is someone who can help you out. Some other times, you have to dig in by yourself. When things get as deep as JVM, many engineers tend to back down. But come on, HotSpot is not a mysterious machine. It is opensource, after all! All the seemingly weird JVM behavior can be reproduced, and explained if one goes just a bit deeper. This talk will take the audience to the fun world of the JVM sources and review several case studies that are initially puzzling, but are actually quick to be dissolved. ",
       "title": "Just what are you doing, HotSpot?",
       "url": "http://jeeconf.com/program/#hotspot-internals",
-      "startTimestamp": "2015-05-22T08:00:00.000Z",
+      "startTimestamp": "2015-05-22T08:00:00Z",
       "photoUrl": "",
       "id": "s11",
       "room": "track-b",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T08:45:00.000Z",
+      "endTimestamp": "2015-05-22T08:45:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -966,13 +1036,13 @@
       "description": "Clojure is a great language, especially for writing DSLs. Talk overviews DSL examples, common problems and approaches to their solving. Also we will discuss Instaparse, Clojure library which makes context-free grammars as easy to use as regular expressions.",
       "title": "DSL in Clojure",
       "url": "http://jeeconf.com/program/#dsl-in-clojure",
-      "startTimestamp": "2015-05-22T08:00:00.000Z",
+      "startTimestamp": "2015-05-22T08:00:00Z",
       "photoUrl": "",
       "youtubeUrl": "",
       "id": "s12",
       "room": "track-c",
       "isLivestream": true,
-      "endTimestamp": "2015-05-22T08:45:00.000Z",
+      "endTimestamp": "2015-05-22T08:45:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -985,7 +1055,7 @@
       "description": "Morphia is MongoDB’s JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better. This removes a lot of JPA pain, which makes database interactions fun again. On a practical level we take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. Next we discuss some patterns on how to solve common requirements, such as the proper use of generics, auto-increments, and the encryption of sensitive data. The talk concludes with some tips and lessons we’ve learned from using Morphia in production for three years.",
       "title": "Painfree Object-Document Mapping for MongoDB",
       "url": "http://jeeconf.com/program/#object-document-mapping-for-mongodb",
-      "startTimestamp": "2015-05-22T08:00:00.000Z",
+      "startTimestamp": "2015-05-22T08:00:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -995,7 +1065,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T08:45:00.000Z",
+      "endTimestamp": "2015-05-22T08:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1005,7 +1075,7 @@
       "description": "We’ll talk about how development methodology has changed in the Java world for the last 15 years. You will see examples of architectural mistakes, frequently involving buzzword heavy hyped technologies, like “NoSQL”, “Microservices” and so on. Often popular “innovative approaches” aren’t more than yet another viewpoint to a known technological business problem. If you are responsible for architectural decisions, the thought “Hey, I’ve seen something like it before!” is helpful and gives you a chance to avoid inventing the wheel from scratch once again.",
       "title": "Hey, I’ve seen something like it before!",
       "url": "http://jeeconf.com/program/#reinventing-the-wheel",
-      "startTimestamp": "2015-05-22T08:00:00.000Z",
+      "startTimestamp": "2015-05-23T09:00:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1015,7 +1085,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T08:45:00.000Z",
+      "endTimestamp": "2015-05-23T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1025,7 +1095,7 @@
       "description": "From the software development perspective Internet of Things (IoT) is about programming sensors, connecting them with each other and integrating them with existing business applications. While IoT-enabled devices can use a variety of proprietary software, RESTful Web services and OAUTH protocol play a role of a glue that allows to integrate multiple devices into an application workflow. This presentation will demonstrate a sample architecture of such an application. You’ll also see a live demo of using commercial consumer devices as a part of an application that utilizes REST API, OAuth, Websockets, JavaScript and Java. This presentation will give you an idea of how to authenticate users and integrate new IoT devices as they become available on the market.",
       "title": "RESTful services and OAUTH protocol in IoT",
       "url": "http://jeeconf.com/program/#restful-services-and-oauth",
-      "startTimestamp": "2015-05-22T09:00:00.000Z",
+      "startTimestamp": "2015-05-22T09:00:00Z",
       "photoUrl": "",
       "mainTag": "TOPIC_JDK_WEB",
       "id": "s15",
@@ -1033,7 +1103,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T09:45:00.000Z",
+      "endTimestamp": "2015-05-22T09:45:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1046,7 +1116,7 @@
       "description": "Whenever a functional language is mentioned, everyone talks about typical applications like DSL, parsing, data mining, or scientific computing. But what about mainstream consumer-facing applications? Can you build your next project with Scala? What if your system must run in the cloud, on desktop computers, and on specialized hardware, can you still do it? We’ll share our experience of implementing such a system for a German fitness startup that utilized custom-built devices, biometrics, cross-platform integration, and, of course, Scala. We’ll discuss the challenges we ran into and pitfalls you can avoid when your team decides to go functional.",
       "title": "Lessons from Implementing a Modern B2C System in Scala",
       "url": "http://jeeconf.com/program/#lessons-from-b2c-impelemtation-in-scala",
-      "startTimestamp": "2015-05-22T09:00:00.000Z",
+      "startTimestamp": "2015-05-22T09:00:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1056,7 +1126,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T09:45:00.000Z",
+      "endTimestamp": "2015-05-22T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1066,7 +1136,7 @@
       "description": "Your project got data. Big data. Your business wants using it. On regular basis. Today data varies from mobile app logs to video streams and business needs assistance now and then. How can you get support from technology? You will learn how In-Memory Data Grid, Massively Parallel Processing and Map-Reduce can help. Also you’ll get an overview of a real life use case when sensor data is analized with HP Vertica, Java and R.",
       "title": "Big Data analysis approaches in Java world",
       "url": "http://jeeconf.com/program/#big-data-analysis",
-      "startTimestamp": "2015-05-22T09:00:00.000Z",
+      "startTimestamp": "2015-05-22T09:00:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -1076,7 +1146,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T09:45:00.000Z",
+      "endTimestamp": "2015-05-22T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1086,7 +1156,7 @@
       "description": "A modern internet service is not just a web client today. It is common to write native mobile clients at least for the major platforms (iOS/Android). And this trend is extending to the desktop as well, forcing ISVs to look for cross-platform solutions. Now recall that Java offers a variety of rich UI frameworks, from Swing to JavaFX, for all major desktop platforms right now. However, to be called a native client, an application written in Java should deliver native user experience: it should install in a native manner, come with no external dependencies, look good, start and work fast, and not consume too much memory. In this talk we will consider how these requirements are addressed by different Java implementations and solutions.",
       "title": "Delivering Native User Experience in Client-Side Java Applications",
       "url": "http://jeeconf.com/program/#native-user-experience-in-client-side-java-applications",
-      "startTimestamp": "2015-05-22T09:00:00.000Z",
+      "startTimestamp": "2015-05-22T09:00:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1096,7 +1166,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T09:45:00.000Z",
+      "endTimestamp": "2015-05-22T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1106,7 +1176,7 @@
       "description": "This talk will introduce you in disadvantages of locking, CAS operations, Java atomic variable classes and a couple of nonblocking algoritms: nonblocking stack and nonblocking queue. If we have time, we will also talk about ABA problem. The talk is based on JCIP (§15) and TAoMP (§§ 5, 7, 10, 11). It will be interesting for Java programmers who have heard about CAS and lock-free, but who have no experience in writing non-blocking code.",
       "title": "Atomics, CAS, and Nonblocking Algorithms",
       "url": "http://jeeconf.com/program/#nonblocking-algorithms",
-      "startTimestamp": "2015-05-22T11:30:00.000Z",
+      "startTimestamp": "2015-05-22T11:30:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1116,7 +1186,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T12:15:00.000Z",
+      "endTimestamp": "2015-05-22T12:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1126,7 +1196,7 @@
       "description": "So you’ve heard of this newfangled “Scala” thing and think it might be worth checking out. Good for you! Unfortunately, it’s also daunting. Your first search for Scala is likely to pitch it as a “statically-typed hybrid object-oriented and functional language”, which is technically true but doesn’t really help much. Instead, this talk will provide an overview of the language, focusing on five highly practical advantages Scala has over Java without a brain hemorrhage-inducing paradigm shift, followed by some tips and recommendations on Scala adoption in the real world and (as time allows) open-ended Q&A.",
       "title": "5 Bullets to Scala Adoption",
       "url": "http://jeeconf.com/program/#5-bullets-to-scala-adoption",
-      "startTimestamp": "2015-05-22T11:30:00.000Z",
+      "startTimestamp": "2015-05-22T11:30:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1136,7 +1206,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T12:15:00.000Z",
+      "endTimestamp": "2015-05-22T12:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1146,7 +1216,7 @@
       "description": "Elastic stack is very popular in over days. Lets go dive to world of near real time search. Make Hadoop search faster, ship a huge log data and visualize it with Elastic products. Configure ElasticSearch, Logstash, ES Hadoop in pair, describe all interesting features and differences with another systems.",
       "title": "Elastic stack in BigData",
       "url": "http://jeeconf.com/program/#elastic-stack-in-bigdata",
-      "startTimestamp": "2015-05-22T11:30:00.000Z",
+      "startTimestamp": "2015-05-22T11:30:00Z",
       "photoUrl": "",
       "youtubeUrl": "https://google.com/events/io",
       "mainTag": "TOPIC_BIGDATACLOUDS",
@@ -1154,8 +1224,8 @@
       "color": "#0d904f",
       "room": "track-d",
       "hashtag": "",
-      "isLivestream": true,
-      "endTimestamp": "2015-05-22T12:15:00.000Z",
+      "isLivestream": false,
+      "endTimestamp": "2015-05-22T12:15:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -1172,7 +1242,7 @@
       "description": "JVM Q&A Panel. Capacity: 100 people.",
       "title": "JVM Q&A Panel",
       "url": "",
-      "startTimestamp": "2015-05-22T11:30:00.000Z",
+      "startTimestamp": "2015-05-22T11:30:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1182,7 +1252,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T12:15:00.000Z",
+      "endTimestamp": "2015-05-22T12:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1192,7 +1262,7 @@
       "description": "JSR 371: Model-View-Controller (MVC 1.0) Specification is targeted to be a part of the upcoming Java EE 8 release. In this session I will quickly go through the nuts and bolts of this JSR. I will then jump right into a demo showing the key concepts by building an application based on MVC 1.0 from scratch. As we go I will also make a quick comparison with other frameworks, such as Spring MVC. This session will be based on a live coding demo backed by a set of introductory slides.",
       "title": "MVC 1.0 by Example",
       "url": "http://jeeconf.com/program/#mvc-1-by-example",
-      "startTimestamp": "2015-05-22T12:30:00.000Z",
+      "startTimestamp": "2015-05-22T12:30:00Z",
       "photoUrl": "",
       "mainTag": "TOPIC_JDK_WEB",
       "id": "s23",
@@ -1200,7 +1270,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T13:15:00.000Z",
+      "endTimestamp": "2015-05-22T13:15:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1217,7 +1287,7 @@
       "description": "JVM Languages Q&A Panel",
       "title": "JVM Languages Q&A Panel",
       "url": "",
-      "startTimestamp": "2015-05-22T12:30:00.000Z",
+      "startTimestamp": "2015-05-22T12:30:00Z",
       "photoUrl": "",
       "mainTag": "TOPIC_JVM_LANGUAGES",
       "id": "s24",
@@ -1225,7 +1295,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T13:15:00.000Z",
+      "endTimestamp": "2015-05-22T13:15:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1238,14 +1308,14 @@
       "description": "The talk will compare Cascalog, fully-featured data processing and querying library on top of Hadoop, and Sparkling – A Clojure API for Apache Spark. How both of these compare in terms of performance and code complexity for Big Data processing and why you shouldn’t be writing MapReduce jobs in plain Hadoop API.",
       "title": "ETL all the things!",
       "url": "http://jeeconf.com/program/#etl-all-the-things",
-      "startTimestamp": "2015-05-22T12:30:00.000Z",
+      "startTimestamp": "2015-05-22T12:30:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
       "id": "s25",
       "room": "track-d",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T13:15:00.000Z",
+      "endTimestamp": "2015-05-22T13:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1255,7 +1325,7 @@
       "description": "Spring Boot is a product from Spring, that provides many configuration defaults for a new Spring project, so that one can set up a project in minutes. However, this is only one of the many features of Spring Boot. One of its module also provides many important Non-Functional Requirements out-of-the-box: monitoring, metrics, exposing those over HTTP, etc. In this presentation, I’ll demo some of those, that will make DevOps more than a little happy.",
       "title": "Spring Boot for Devops",
       "url": "http://jeeconf.com/program/#spring-boot-for-devops",
-      "startTimestamp": "2015-05-22T12:30:00.000Z",
+      "startTimestamp": "2015-05-22T12:30:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1265,7 +1335,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T13:15:00.000Z",
+      "endTimestamp": "2015-05-22T13:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1275,7 +1345,7 @@
       "description": "Java is often criticized for not supporting C-style structs. This makes it hard to efficiently implement certain types of data structures like for example arrays of small objects. However, recently this problem has been addressed by several different approaches. My talk will briefly introduce Packed Objects , an extension available in IBM’s Java SDK 8, Object Layout , a layout-optimized Java data structure package proposed by Gil Tene and Value Types , an OpenJDK proposal for small, immutable, identityless value types. I will describe the commonalities and differences of the three approaches and explain how they can improve the memory overhead and locality of Java objects. Finally I will deep-dive into the implementation of the Object Layout library and explain how it can be transparently intrinsified and optimized in the HotSpot VM. Attendees of my talk will become familiar with the development of an emerging Java technology. The will also get a good impression of what it means to implement such an extension in the Java Virtual machine and gain some insights into the HotSpot VM.",
       "title": "Packed Objects, Object Layout & Value Types — a Survey",
       "url": "http://jeeconf.com/program/#packed-objects-object-layout-and-value-types",
-      "startTimestamp": "2015-05-22T14:00:00.000Z",
+      "startTimestamp": "2015-05-22T14:00:00Z",
       "photoUrl": "",
       "youtubeUrl": "",
       "mainTag": "TOPIC_JDK_WEB",
@@ -1284,7 +1354,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": true,
-      "endTimestamp": "2015-05-22T14:45:00.000Z",
+      "endTimestamp": "2015-05-22T14:45:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1297,7 +1367,7 @@
       "description": "I am pleased to tell you about the architecture of an online banking platform based on Play Framework and PSJ – Plain Simple Java. I will show why it’s better, faster and cheaper than building on the overused Java Enterprise stack. Online banking solutions on this platform now serve Bank Saint Petersburg and UBRD in Yekaterinburg, both of which have won many awards right after launch. Play Framework greatly helped to give a quick start and put architecture on the right track, but of course the real life has made some corrections, especially related to integration with backend systems: online bank is responsible for the overall user experience, so it must work around any flaws of IT systems in the bank and outdated legal requirements. I will talk about what is particularly good about Play Framework and what we had to do differently, as well as how Agile practices help us to fight poorly designed backend-systems.",
       "title": "Building an Enterprise-less online bank",
       "url": "http://jeeconf.com/program/#enterprise-less-online-bank",
-      "startTimestamp": "2015-05-22T14:00:00.000Z",
+      "startTimestamp": "2015-05-22T14:00:00Z",
       "photoUrl": "",
       "youtubeUrl": "",
       "mainTag": "TOPIC_JVM_LANGUAGES",
@@ -1306,7 +1376,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": true,
-      "endTimestamp": "2015-05-22T14:45:00.000Z",
+      "endTimestamp": "2015-05-22T14:45:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1319,7 +1389,7 @@
       "description": "This presentation will be useful to those who would like to get acquainted with Apache Spark architecture, top features and see some of them in action, e.g. RDD transformations and actions, Spark SQL, etc. Also we will cover real life use cases related to one of ours commercial projects and recall roadmap how we’ve integrated Apache Spark into it.",
       "title": "Introduction to Real-Time Big Data with Apache Spark",
       "url": "http://jeeconf.com/program/#apache-spark",
-      "startTimestamp": "2015-05-22T14:00:00.000Z",
+      "startTimestamp": "2015-05-22T14:00:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -1329,7 +1399,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T14:45:00.000Z",
+      "endTimestamp": "2015-05-22T14:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1339,7 +1409,7 @@
       "description": "Microservices are today’s hype. It seems that if you’re not doing them – you’re old fashioned and Doing It Wrong. But to do it properly you have to work in certain environment – ‘you have to be That tall’ as Martin Fowler wrote. In particular if you ignore things Conway’s law you’ll fail miserably. In this talk I’d like to tell you about our (small agile software house working for Big Company) experiences – when is it possible to change the company you’re working for and when it’s better to accept its constraints – and what can you do to make it still a bit better place to live – which rules and practices seen on Netflix gorgeous talks can be easily used and which are more problematic. Be aware that I’ll use old-fashioned words like OSGi, but I’ll try to omit most technical details and focus more on bigger picture – how we tried to move from good (?) old ESB towards fashionable microservices and where and why we decided to stay.",
       "title": "Microservices, ‘Enterprise’ and Conway’s law ",
       "url": "http://jeeconf.com/program/#microservices-enterprise-conways-law",
-      "startTimestamp": "2015-05-22T14:00:00.000Z",
+      "startTimestamp": "2015-05-22T14:00:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1349,7 +1419,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-22T14:45:00.000Z",
+      "endTimestamp": "2015-05-22T14:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1359,7 +1429,7 @@
       "description": "We get it already! Microservices help you build smaller, singly-focused services, quicker. They scale out. They’re more agile because individual teams can deliver them at their own pace. They work well in the cloud because they’re smaller, and benefit from elastic, horizontal scaling. But what about the complexity? There’s a cost associated with adding services and coordinating the interactions between them. In this talk, we’ll look at Spring Cloud, which builds atop Spring Boot and the Netflix OSS stack, and see how it lets you easily integrate service-discovery, security, reliability patterns like the circuit breaker, and centralized and journaled property configuration (and more) to build resilient microservices that scale. We’ll look at service discovery and registration with a Eureka service registry and Spring Cloud’s Eureka integration, centralized, journaled configuration with Spring Cloud’s Config server, refreshing bean configuration in-situ with the `@RefreshScope`, building an API gateway using Zuul and reactive programming, and isolating failure cascades using the Hystrix circuit-breaker.",
       "title": "Building 'Bootiful' Microservices with Spring",
       "url": "http://jeeconf.com/program/#building-bootiful-microservices-with-spring",
-      "startTimestamp": "2015-05-23T07:00:00.000Z",
+      "startTimestamp": "2015-05-23T07:00:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -1369,7 +1439,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T07:45:00.000Z",
+      "endTimestamp": "2015-05-23T07:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1379,7 +1449,7 @@
       "description": "With tens of millions of clients continuously downloading binaries from our repositories, we decided to offer an OSS client that natively supports these downloads. In this talk, we will share the main challenges in developing a highly-concurrent, resumable, async download library on top of Apache HTTP client. We will cover other libraries we tested and why we decided to reinvent the wheel. We will see important pitfalls we came across when working with HTTP and how using the right combination of techniques can improve performance by an order of magnitude. We will also see why your initial assumptions may completely change when faced with other players on the network. Consider yourself forewarned: lots of HTTP internals, NIO and concurrency ahead!",
       "title": "Everything you wanted to know about writing async, high-concurrency HTTP applications in Java, but were afraid to ask",
       "url": "http://jeeconf.com/program/#async-http-in-java",
-      "startTimestamp": "2015-05-23T07:00:00.000Z",
+      "startTimestamp": "2015-05-23T07:00:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1389,7 +1459,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T07:45:00.000Z",
+      "endTimestamp": "2015-05-23T07:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1399,7 +1469,7 @@
       "description": "Domain-specific languages (aka DSLs) brings their creators to the new level of abstractions power. They indulge two primary desires of each developer: to play with challenging and interesting problems and to make future tasks easier and more pleasant to work with. What usually stops everyone from implementing really nice DSL is either poorness or complexity of instruments for their creation. Groovy is modern JVM language which features makes it first choice for simple and enjoyable DSLs implementing. In this talk, we will look at the instruments that Groovy provide for DSL builders and use it for creating our own DSL. We will cover features ranging from what Groovy can suggest for standard Java developer to transform his ugly Java DSL into something acceptable in 5 minutes to advanced features like Metaobject protocol and AST transformations.",
       "title": "Building domain-specific languages with Groovy",
       "url": "http://jeeconf.com/program/#building-dsl-with-groovy",
-      "startTimestamp": "2015-05-23T07:00:00.000Z",
+      "startTimestamp": "2015-05-23T07:00:00Z",
       "photoUrl": "",
       "mainTag": "TOPIC_JVM_LANGUAGES",
       "id": "s33",
@@ -1407,7 +1477,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T07:45:00.000Z",
+      "endTimestamp": "2015-05-23T07:45:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1420,7 +1490,7 @@
       "description": "The world of old-school approaches to develop software look like are going away. We have no rights to ignore errors that might never happen; connections that might never will be broken or interrupted, processes that might never be killed; networks that might never be slow and this list could continue further… Let’s endue our software with capabilities to survive in the wild world of reality. In this talk I’m going to depict fault tolerance concepts and patterns, to provide guidance for implementing resilient software.",
       "title": "Fault tolerance – look, it’s possible!",
       "url": "http://jeeconf.com/program/#fault-tolerant-development",
-      "startTimestamp": "2015-05-23T07:00:00.000Z",
+      "startTimestamp": "2015-05-23T07:00:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -1430,7 +1500,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T07:45:00.000Z",
+      "endTimestamp": "2015-05-23T07:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1440,7 +1510,7 @@
       "description": "Is the good time of Java world “Write once, run anywhere” coming back? Codename One is the only Java iOS tool that currently comes close to this concept. Java bytecode is translated to native C/ObjC code and compiled using Xcode for seamless mobile application development. We will review this open-source platform and see its capabilities.",
       "title": "'Codename One' – Java to Obj-C bridge",
       "url": "http://jeeconf.com/program/#codename-one-java-to-objective-c-bridge",
-      "startTimestamp": "2015-05-23T07:00:00.000Z",
+      "startTimestamp": "2015-05-23T07:00:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1450,7 +1520,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T07:45:00.000Z",
+      "endTimestamp": "2015-05-23T07:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1460,7 +1530,7 @@
       "description": "Java was designed to abstract the hardware, the memory, disk and network, today we write programs without worrying about how the memory is used. As volumes get larger we’ve tended to scale horizontally with distributed computing but there is a lot more we can do to scale both before and after distributing that can give us over an order of magnitude in performance. Twenty to thirty years ago programmers spend most of their time getting incredible amounts of functionality from just a few kilobytes of RAM, much of these techniques appear to have been forgotten as we now happily walk around with gigabytes in our pockets. By turning your Java into binary, for example using just 2 bytes to store a date rather than Java’s Date we use 24 times less memory, add a lot of similar savings up and put them into a single byte[] and the savings for both memory and serialisation can be over 2 orders of magnitude. John will walk through simple examples (with code demos) before moving on to more complex XML example & more demos. Finally using Java 8 lambdas John will demonstrate complex XML processing on a big-data scale but on a laptop.",
       "title": "Speed up Your Java by Turning it into Binary",
       "url": "http://jeeconf.com/program/#speed-up-your-java-turning-it-into-binary",
-      "startTimestamp": "2015-05-23T08:00:00.000Z",
+      "startTimestamp": "2015-05-23T08:00:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -1470,7 +1540,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T08:45:00.000Z",
+      "endTimestamp": "2015-05-23T08:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1480,7 +1550,7 @@
       "description": "Many have said that Java has no future. But it is now 2015, the new APIs and trendy lambda dances in Java 8. And a crowd of advanced neighbors​​ that have their own means of asynchronous processing for ‘going to production quickly.” Let’s talk about other languages ​​and libraries a bit. For a long time we already have Future and ExecutorService for asynchronous execution. However, with the advent of CompletableFuture in JDK 8, the way opened from callback hell to clean and more functional code. We look at practical examples of the challenges CompletableFuture ‘with streams and lambdas’ takes and about it’s efficiency.",
       "title": "CompletableFuture is here",
       "url": "http://jeeconf.com/program/#completablefuture",
-      "startTimestamp": "2015-05-23T08:00:00.000Z",
+      "startTimestamp": "2015-05-23T08:00:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1490,7 +1560,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T08:45:00.000Z",
+      "endTimestamp": "2015-05-23T08:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1500,7 +1570,7 @@
       "description": "At the end of 2013, an online course “Functional Programming in Scala” by Martin Odersky caught buzz among my friends-java-developers. After graduating the course with honours, I have decided that I can easily cope with any Scala-based project. But the reality appeared not so colourful. In my lecture I’m going to show some pros and cons of Scala with examples from real life. I’ll tell you about the perks Scala provides us with, and traps that can turn our lives into hell. I will show the elegance of Scala, explain how different perception of elegance can be, and how it can end up. My lecture might be especially interesting for those who are already familiar with the syntax of the language, but did not have a chance to work with it in real projects.",
       "title": "Scala Rock-Painting",
       "url": "http://jeeconf.com/program/#scala-rock-painting",
-      "startTimestamp": "2015-05-23T08:00:00.000Z",
+      "startTimestamp": "2015-05-23T08:00:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1510,7 +1580,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T08:45:00.000Z",
+      "endTimestamp": "2015-05-23T08:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1520,7 +1590,7 @@
       "description": "As a software developer you are not very often in the situation where you develop a completely new system from scratch based on recent techonologies. More often just small features have to be integrated in already existing systems. A change of the basic software architecture and an introduction of new programming paradigms are very difficult in this context. It is all the more important to make the modernization of a legacy systems an ongoing part of the feature-driven development process. In this talk I will show step by step how to transform a big, monolithic legacy system towards a modern microservice based architecture. And I will demonstrate how two open libraries from Netflix can support this process. Hystrix will help us to improve the overall stability of the system and RxJava will help us to handle asynchronous processes in a more elegant way. Based on examples I will show how the suggested modernization process could be realised.",
       "title": "The modernization of legacy systems with microservices, Hystrix and RxJava",
       "url": "http://jeeconf.com/program/#microservices-with-hystrix-and-rxjava",
-      "startTimestamp": "2015-05-23T08:00:00.000Z",
+      "startTimestamp": "2015-05-23T08:00:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -1530,7 +1600,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T08:45:00.000Z",
+      "endTimestamp": "2015-05-23T08:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1543,7 +1613,7 @@
       "description": "Spring Q&A Panel",
       "title": "Spring Q&A Panel",
       "url": "",
-      "startTimestamp": "2015-05-23T08:00:00.000Z",
+      "startTimestamp": "2015-05-23T08:00:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1553,7 +1623,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T08:45:00.000Z",
+      "endTimestamp": "2015-05-23T08:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1563,7 +1633,7 @@
       "description": "Generics are one of the most complex features of Java. They are often poorly understood and lead to confusing errors. Unfortunately, it won’t get easier. Java 10, release planned for 2018, extends Generics. It’s now time to understand generics or risk being left behind. We start by stepping back into the halcyon days of 2004 and explain why generics were introduced in the first place back. We also explain why Java’s implementation is unique compared to similar features in other programming languages. Then we travel to the present to explaining how to make effective use of Generics. We then explore various entertaining code examples and puzzlers of how Generics are used today. Finally, this talk sheds light on the planned changes in Java 10 with practical code examples and related ideas from other programming languages. If you ever wanted to understand the buzz around higher kinded types or declaration site variance now is your chance!",
       "title": "Java Generics: Past, Present and Future",
       "url": "http://jeeconf.com/program/#java-generics",
-      "startTimestamp": "2015-05-23T09:00:00.000Z",
+      "startTimestamp": "2015-05-23T09:00:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -1573,7 +1643,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T09:45:00.000Z",
+      "endTimestamp": "2015-05-23T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1583,7 +1653,7 @@
       "description": "Automatic memory management and garbage collection is one of the biggest advantages of JVM compared with previous platforms. But it has a price: GC overhead and pauses. When every millisecond counts this price can be too high. You can get away and not pay it by taking responsibility back into your hands. I will describe what does “off-heap” memory means for java application developer and how he can use it in order to speed his application up. The majority of this talk is live code demonstration. I will use different ways to implement off-heap data storage and will show how fast one and the same piece of code runs with each implementation.",
       "title": "Heap, off you go",
       "url": "http://jeeconf.com/program/#heap-off-you-go",
-      "startTimestamp": "2015-05-23T09:00:00.000Z",
+      "startTimestamp": "2015-05-23T09:00:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1593,7 +1663,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T09:45:00.000Z",
+      "endTimestamp": "2015-05-23T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1604,7 +1674,7 @@
       "description": " In this session we will talk about Groovy compile-time metaprogramming: the AST transformations. Those are the wizards that improve, check and manipulate your code in compile time, allowing you to keep your source nice, tide and readable. In the first part of the presentation, Baruch will show you what Groovy has to offer out of the box in this regard (and it’s A LOT!) and then Sergei will teach you how to unleash the power of AST to create your own magic by writing custom AST transformations, tailored to your business needs.",
       "title": "Groovy under Macroscope",
       "url": "http://jeeconf.com/program/#groovy-under-macroscope",
-      "startTimestamp": "2015-05-23T09:00:00.000Z",
+      "startTimestamp": "2015-05-23T09:00:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1614,7 +1684,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T09:45:00.000Z",
+      "endTimestamp": "2015-05-23T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1624,7 +1694,7 @@
       "description": "The promise of the cloud is the reduction of friction between development and deployment. It’s continuous delivery. It’s the ability to think about apps, not kernels. In this talk, we’ll look at how Cloud Foundry, the open-source PaaS from the Linux Foundation that underpins IBM’s BlueMix and HP’s Helion products, and serves large users like Baidu and NTT, can be used to deploy, scale, auto-heal, monitor and analyze applications. We’ll look at how to use the API to master your runtime and we’ll also look at the next generation of Cloud Foundry, code-named Lattice, and its Docker-first support.",
       "title": "What’s In Your Cloud?",
       "url": "http://jeeconf.com/program/#what-is-in-your-cloud",
-      "startTimestamp": "2015-05-23T09:00:00.000Z",
+      "startTimestamp": "2015-05-23T09:00:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -1634,7 +1704,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T09:45:00.000Z",
+      "endTimestamp": "2015-05-23T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1644,7 +1714,7 @@
       "description": "Xtext is a new framework for developing parsers for your DSL language linked with power of the Eclipse platform. During this talk I will show how advantages of this tool can help as to build powerful IDE for own DSL language during just one day.",
       "title": "How to write IDE for your DSL in one day",
       "url": "http://jeeconf.com/program/#ide-for-dsl",
-      "startTimestamp": "2015-05-23T09:00:00.000Z",
+      "startTimestamp": "2015-05-23T09:00:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1654,7 +1724,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T09:45:00.000Z",
+      "endTimestamp": "2015-05-23T09:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1664,7 +1734,7 @@
       "description": "Have you ever migrated from one database to another or needed to change ORM? Have you ever moved from relational database to NoSQL. Or maybe you worked on projects which had a combination of both of them above and planned to introduce additional database? How much did you suffered trying to save your infrastructure features? In the current session, I’ll show you how you can reduce the pain by using Spring Data.",
       "title": "Spring Data, ta da!",
       "url": "http://jeeconf.com/program/#spring-data",
-      "startTimestamp": "2015-05-23T11:30:00.000Z",
+      "startTimestamp": "2015-05-23T11:30:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -1674,7 +1744,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T12:15:00.000Z",
+      "endTimestamp": "2015-05-23T12:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1684,7 +1754,7 @@
       "description": "Through years of work have been trying many of Java frameworks which provides different level of abstractions on both server and client-side. Pure Servlet+JSP, JSF, GWT, Struts, Spring MVC, Vaadin, Play!, DWR, you name it. Sometimes it felt good, sometimes not, and with each year number of “good” applications reduced to the critical minimum. Later I tried to bring all the good points I had ever seen together to create “a perfect being” and after years of struggling I feel that I have reached the goal. Let me share it…",
       "title": "Web-application I have always dreamt of",
       "url": "http://jeeconf.com/program/#ideal-web-application",
-      "startTimestamp": "2015-05-23T11:30:00.000Z",
+      "startTimestamp": "2015-05-23T11:30:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1694,7 +1764,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T12:15:00.000Z",
+      "endTimestamp": "2015-05-23T12:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1704,7 +1774,7 @@
       "description": "The presentation is going to introduce you to the available concurrency abstractions available for Scala developers – Rx’s Observables, scala.concurrent.Future, and Akka’s actors. It’s going to be a Scala code-heavy presentation. However Scala is the language of choice the libraries are not limited to the Scala language and Java API is either the main research language with Scala’s as an alternative or yet another API.",
       "title": "About concurrency abstractions with Observable’s, Future’s, Akka (actors) in Scala",
       "url": "http://jeeconf.com/program/#concurrency-abstractions-in-scala",
-      "startTimestamp": "2015-05-23T11:30:00.000Z",
+      "startTimestamp": "2015-05-23T11:30:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1714,7 +1784,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T12:15:00.000Z",
+      "endTimestamp": "2015-05-23T12:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1724,7 +1794,7 @@
       "description": "In this talk we will cover a new trend in distributed enterprise architecture – microservices. How the leading technology companies like Netflix and Amazon come to use that approach. How does it help them to scale their infrastructure. And how the newest set of tools in the Spring family would help you to apply those design principles in practice. Spring has always been about patterns and Spring Cloud brings you implementation of several widespread ones for distributed apps. We will talk about the problems we’ve encountered while trying to move our projects in cloud, what pain Spring Cloud promises to fix, how it fits the new cloud world vision. And what should come first – DevOps or Microservices.",
       "title": "App infrastructure for microservices with Spring Cloud 1.0.0",
       "url": "http://jeeconf.com/program/#infrastructure-for-microservices-with-spring-cloud",
-      "startTimestamp": "2015-05-23T11:30:00.000Z",
+      "startTimestamp": "2015-05-23T11:30:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -1734,7 +1804,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T12:15:00.000Z",
+      "endTimestamp": "2015-05-23T12:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1744,7 +1814,7 @@
       "description": "Encapsulating functionality: Web Components – set of new standards from Google. It’s time to adopt or maybe look back? It’s seems, we have had something similar, or it is absolutely different? JSF components – Oh, no! Or give a chance? Go forward to a client’s browser or review new features in server? How to start using Polymer under Spring Boot or maybe it will be PrimeFaces. Glance from back-end (and slightly manager) perspectives.",
       "title": "Less JS! Web components for back-end developers.",
       "url": "http://jeeconf.com/program/#less-js",
-      "startTimestamp": "2015-05-23T11:30:00.000Z",
+      "startTimestamp": "2015-05-23T11:30:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1754,7 +1824,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T12:15:00.000Z",
+      "endTimestamp": "2015-05-23T12:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1764,7 +1834,7 @@
       "description": "Suppose you want to have a general understanding of how the performance changes when you add a new JVM argument. For instance, you develop an agent, and you want to make sure that the clients’ performance does not suffer when it’s attached. Or you want to see if it is a good idea to enable a JVM option by default. There are surprisingly many ways to do it wrong. The talk will cover some of them and discuss the general problem of benchmark suites for Java.",
       "title": "Side-By-Side Performance Comparisons",
       "url": "http://jeeconf.com/program/#performance-comparisons",
-      "startTimestamp": "2015-05-23T12:30:00.000Z",
+      "startTimestamp": "2015-05-23T12:30:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -1774,7 +1844,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T13:15:00.000Z",
+      "endTimestamp": "2015-05-23T13:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1784,7 +1854,7 @@
       "description": "Node.js (or I/O.js) as an evented I/O runtime is very popular and is used widely. But how do you integrate Node in enterprise architectures? There are mature monitoring processes for JVM runtime environments and a significant part of the business logic is implemented in Java libraries. In addition, JavaScript code execution in Node.js is only single threaded, is it worth at all? The seamless integration and a (nearly complete) compatibility to Node.js applications in JVM environments promise Nodyn from RedHat, but it’s using alternative JavaScript engines from V8 like Nashorn and DynJS; additionally there’s Netty and Vert.x. This approach deals with the ability to be able to execute JavaScript code not only non-blocking and asynchronously, but also in highly distributed environments using the Vert.x Eventbus. Additionally, there are other advantages of using a JVM-based scripting engine when developing for enterprise environments. Come and see my Beer-as-a-Service in action!",
       "title": "Node.js and Evented I/O Alternatives on the JVM",
       "url": "http://jeeconf.com/program/#event-io-jvm-alternatives-to-nodejs",
-      "startTimestamp": "2015-05-23T12:30:00.000Z",
+      "startTimestamp": "2015-05-23T12:30:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1794,7 +1864,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T13:15:00.000Z",
+      "endTimestamp": "2015-05-23T13:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1804,7 +1874,7 @@
       "description": "Scala can be really complicated, and it’s normal that you don’t know how to start learning it. So it really simple to miss possibilities for the beginners to learn Scala effectively. This talk is about what tools and practices can be used for the beginners. We will observe Scala Worksheet and its practices. We also will make a review for the most common mistakes in Scala code. Moreover I’ll tell you about refactoring tools and implicits debug tools. This talk will have some introduction to Scala, so any knowledge of this language is not required. All of this will help people, who want to start learning Scala, to do it in more effective way and it also will help people, who already know Scala, to use it in more powerful way.",
       "title": "Productivity in Scala",
       "url": "http://jeeconf.com/program/#productivity-in-scala",
-      "startTimestamp": "2015-05-23T12:30:00.000Z",
+      "startTimestamp": "2015-05-23T12:30:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1814,7 +1884,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T13:15:00.000Z",
+      "endTimestamp": "2015-05-23T13:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1824,7 +1894,7 @@
       "description": "You run your SQL-centric infrastructure for 10 years and slowly starting to note you can’t do this way anymore – everything is getting too expensive but your business requires things which are simply impossible without radical cahnges. This is exact situation we had 2 years before. So we’d like to shouw our experience: Why and how we came into Big Data? Why we choose Apache and Hadoop? What to do and what is already done? What lessans were learned? Hadoop and relational databases: fight or synergy? Reactive Big Data manifest.",
       "title": "Big Data: from mammoth to elephant – transforming legacy solutions with Hadoop infrastructure",
       "url": "http://jeeconf.com/program/#from-legacy-to-hadoop",
-      "startTimestamp": "2015-05-23T12:30:00.000Z",
+      "startTimestamp": "2015-05-23T12:30:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -1834,7 +1904,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T13:15:00.000Z",
+      "endTimestamp": "2015-05-23T13:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1844,7 +1914,7 @@
       "description": "One of the most frequent tasks in software development is deployment and configuration of applications. Spring Boot is modern framework that allows to simplify and speed up both tasks bringing standards and rules in the development process.",
       "title": "Spring Boot. Boot up your development",
       "url": "http://jeeconf.com/program/#spring-boot",
-      "startTimestamp": "2015-05-23T12:30:00.000Z",
+      "startTimestamp": "2015-05-23T12:30:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1854,7 +1924,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T13:15:00.000Z",
+      "endTimestamp": "2015-05-23T13:15:00Z",
       "captionsUrl": ""
     },
     {
@@ -1864,7 +1934,7 @@
       "description": "JMS is known as standard way to implement distributed work with messaging in Java world. There are many JMS providers, both open source and commercial. Large percent of developers use JMS for almost every case when they want to sent message and process it on the other side. But now there are many alternative solutions to organize message queues: AMQP, Redis, ZooKeeper, Apache Kafka or even custom solutions based on Cassandra. Why not to use them instead of JMS? In this talk we will discuss key “issues” in any messaging system and then with this knowledge in mind look once again at JMS and alternative approaches using practical cases from my experience. May be after this talk some more people will stop using JMS and start using their mind. :)",
       "title": "Do we need JMS in 21st century?",
       "url": "http://jeeconf.com/program/#do-we-need-jms",
-      "startTimestamp": "2015-05-23T14:00:00.000Z",
+      "startTimestamp": "2015-05-23T14:00:00Z",
       "tags": [
         "TOPIC_GENERAL_TOPICS"
       ],
@@ -1874,7 +1944,7 @@
       "room": "track-a",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T14:45:00.000Z",
+      "endTimestamp": "2015-05-23T14:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1884,7 +1954,7 @@
       "description": "Developers want to make very few errors in their code and to spot them as early as possible: with the help of unit tests, or earlier, during compilation, or best of all, immediately after they typed something wrong in their IDE. This is what static code analyzers are for. Some of them are built-in, others need to be run separately, some check just about any code, the others require it to be annotated first, and there are tools that are a little bit of all. Do the ends justify the means? Is it even worth trying? What kind of errors can be spotted by static code analysis? How sure can we be if what an analyzer gives us is a real error or a false positive? This talk hopefully helps you answer these questions.",
       "title": "Write code faster with fewer errors: is it possible?",
       "url": "http://jeeconf.com/program/#write-code-faster-with-fewer-errors",
-      "startTimestamp": "2015-05-23T14:00:00.000Z",
+      "startTimestamp": "2015-05-23T14:00:00Z",
       "tags": [
         "TOPIC_JDK_WEB"
       ],
@@ -1894,7 +1964,7 @@
       "room": "track-b",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T14:45:00.000Z",
+      "endTimestamp": "2015-05-23T14:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1905,7 +1975,7 @@
       "description": "More strange, more bizarre, more fun! The Groovy Puzzlers hits with its second season in which we implemented the lesson learned from the first one – do more of the same (always as a duet)! Expect even more “NO WAY!”, “WHOA!”, “WTF!”, O_o and prizes flying around, and expect to learn more about Groovy’s darkest secrets! As usual, the traps we fell into here in JFrog and contributions from top-notch Groovy authors and users!",
       "title": "The Epic Groovy Puzzlers [Season 2]: The revenge of the parentheses",
       "url": "http://jeeconf.com/program/#groovy-puzzlers",
-      "startTimestamp": "2015-05-23T14:00:00.000Z",
+      "startTimestamp": "2015-05-23T14:00:00Z",
       "tags": [
         "TOPIC_JVM_LANGUAGES"
       ],
@@ -1915,7 +1985,7 @@
       "room": "track-c",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T14:45:00.000Z",
+      "endTimestamp": "2015-05-23T14:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1925,7 +1995,7 @@
       "description": "The main topic of talk is building high availability high throughput system for receiveing and saving different kind of information with horizontal scalling possibility using HBase, Flume and Grizzly hosted on Amazon EC2 low cost instances. Talk describes HBase HA cluster setup process with useful hints and EC2 pitfalls, Flume setup process with providing comparasion between standalone and embedded Flume versions and show difference and usecases of both versions. A lot of attention payed to Flume2Hbase streaming features with tweaks and different approaches for speeding up this process. The data entry point example showed with using light Grizzly Server. Presentation contains real life metrics, useful approaches and hints.",
       "title": "How to Manage 10K request per second in HA manner",
       "url": "http://jeeconf.com/program/#10K-requests-per-second-in-ha-manner",
-      "startTimestamp": "2015-05-23T14:00:00.000Z",
+      "startTimestamp": "2015-05-23T14:00:00Z",
       "tags": [
         "TOPIC_BIGDATACLOUDS"
       ],
@@ -1935,7 +2005,7 @@
       "room": "track-d",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T14:45:00.000Z",
+      "endTimestamp": "2015-05-23T14:45:00Z",
       "captionsUrl": ""
     },
     {
@@ -1945,7 +2015,7 @@
       "description": "Unit testing ensures your production code is relevant. But what does ensure your testing code is relevant? Come discover mutation testing and make sure your never forget another assert again. In the realm of testing, the code coverage metrics is the most often talked about. However, it doesn’t mean that the test has been useful or even that an assert has been coded. Mutation testing is a strategy to make sure that the test code is relevant. In this talk, I will explain how Code Coverage is computed and what its inherent flaw is. Afterwards, I will describe how Mutation Testing work and how it helps pointing out code that is tested but leave out corner cases. I will also demo PIT, a Java production-grade framework that enables Mutation Testing on a simple code base. If time allows, a demo will also show how PIT can be integrated with SonarQube.",
       "title": "Improve your tests quality with Mutation Testing",
       "url": "http://jeeconf.com/program/#mutation-testing",
-      "startTimestamp": "2015-05-23T14:00:00.000Z",
+      "startTimestamp": "2015-05-23T14:00:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
@@ -1955,7 +2025,7 @@
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T14:45:00.000Z",
+      "endTimestamp": "2015-05-23T14:45:00Z",
       "captionsUrl": ""
     }
   ],
