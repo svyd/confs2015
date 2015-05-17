@@ -35,6 +35,7 @@
     <item android:id="@+id/menu_i_o_hunt"
           android:orderInCategory="99"
           android:title="@string/description_i_o_hunt"
+          android:visible="false"
         iosched:showAsAction="never" />
 
     <item android:id="@+id/menu_io_extended"
