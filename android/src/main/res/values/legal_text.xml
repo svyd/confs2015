@@ -16,5 +16,5 @@
 -->
 
 <resources>
-    <string name="eula_legal_text">Your EULA text here.</string>
+    <string name="eula_legal_text">Warning: this is not an official JeeConf app!\n\nJeeConf app based on Google IO 2014 app.\nMain goal of app - to simplify creating your schedule. Have fun!\n\nDeveloped by Vladimir Svydenko\n(twitter: @vsvydenko)</string>
 </resources>

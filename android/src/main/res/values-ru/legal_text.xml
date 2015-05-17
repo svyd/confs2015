@@ -16,5 +16,5 @@
 -->
 
 <resources>
-    <string name="eula_legal_text">Your EULA text here.</string>
+    <string name="eula_legal_text">Предупреждение: данное приложение не является официальным клиентом конференции JeeConf!\n\nJeeConf приложение основано на Google IO 2014 app.\nГлавная цель - упрощение составления расписания на конференцию. Всем удачи!\n\nРазработчик Владимир Свиденко\n(twitter: @vsvydenko)</string>
 </resources>

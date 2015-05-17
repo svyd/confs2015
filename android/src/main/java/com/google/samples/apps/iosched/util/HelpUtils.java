@@ -16,6 +16,7 @@
 
 package com.google.samples.apps.iosched.util;
 
+import android.text.Spanned;
 import com.google.samples.apps.iosched.R;
 
 import android.app.*;
@@ -72,7 +73,7 @@ public class HelpUtils {
 
             // Build the about body view and append the link to see OSS licenses
             SpannableStringBuilder aboutBody = new SpannableStringBuilder();
-            aboutBody.append(Html.fromHtml(getString(R.string.about_body, versionName)));
+            aboutBody.append(Html.fromHtml(getString(R.string.about_body)));
 
             SpannableString licensesLink = new SpannableString(getString(R.string.about_licenses));
             licensesLink.setSpan(new ClickableSpan() {
@@ -172,8 +173,15 @@ public class HelpUtils {
             int padding = getResources().getDimensionPixelSize(R.dimen.content_padding_normal);
 
             TextView eulaTextView = new TextView(getActivity());
-            eulaTextView.setText(Html.fromHtml(getString(R.string.eula_legal_text)));
-            eulaTextView.setMovementMethod(LinkMovementMethod.getInstance());
+
+            String formattedText = getString(R.string.eula_legal_text);
+
+            Spanned result = Html.fromHtml(formattedText);
+
+            eulaTextView.setText(result);
+
+            //eulaTextView.setText(Html.fromHtml(getString(R.string.eula_legal_text)));
+            //eulaTextView.setMovementMethod(LinkMovementMethod.getInstance());
             eulaTextView.setPadding(padding, padding, padding, padding);
 
             return new AlertDialog.Builder(getActivity())
