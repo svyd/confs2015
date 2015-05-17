@@ -654,7 +654,7 @@ public class SessionDetailActivity extends BaseActivity implements
             mAbstract.setVisibility(View.GONE);
         }
 
-        updatePlusOneButton();
+        //updatePlusOneButton();
 
         // Build requirements section
         final View requirementsBlock = findViewById(R.id.session_requirements_block);
