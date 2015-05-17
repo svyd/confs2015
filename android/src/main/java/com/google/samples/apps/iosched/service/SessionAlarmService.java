@@ -527,11 +527,11 @@ public class SessionAlarmService extends IntentService
                     String.format(res.getString(R.string.snooze_x_min), 5),
                     createSnoozeIntent(sessionStart, intervalEnd, 5));
         }
-        if (starredCount == 1 && PrefUtils.isAttendeeAtVenue(this)) {
+        /*if (starredCount == 1 && PrefUtils.isAttendeeAtVenue(this)) {
             notifBuilder.addAction(R.drawable.ic_map_holo_dark,
                     res.getString(R.string.title_map),
                     createRoomMapIntent(singleSessionRoomId));
-        }
+        }*/
         String bigContentTitle;
         if (starredCount == 1 && starredSessionTitles.size() > 0) {
             bigContentTitle = starredSessionTitles.get(0);
