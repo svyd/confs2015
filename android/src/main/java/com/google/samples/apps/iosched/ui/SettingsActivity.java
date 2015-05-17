@@ -80,6 +80,12 @@ public class SettingsActivity extends BaseActivity {
             if (PrefUtils.hasEnabledBle(getActivity())) {
                 addPreferencesFromResource(R.xml.ble_preferences);
             }
+            //hide some prefs
+            getPreferenceScreen().removePreference(getPreferenceScreen().findPreference("pref_local_times"));
+            getPreferenceScreen().removePreference(getPreferenceScreen().findPreference("pref_attendee_at_venue"));
+            getPreferenceScreen().removePreference(getPreferenceScreen().findPreference("pref_analytics_enabled"));
+            getPreferenceScreen().removePreference(getPreferenceScreen().findPreference("pref_sync_calendar"));
+            getPreferenceScreen().removePreference(getPreferenceScreen().findPreference("pref_show_session_feedback_reminders"));
         }
 
         @Override
