@@ -19,6 +19,7 @@
         android:icon="@drawable/ic_action_map"
         android:title="@string/description_map"
         android:orderInCategory="1"
+        android:visible="false"
         iosched:showAsAction="ifRoom" />
     <item android:id="@+id/menu_share"
         android:icon="@drawable/ic_action_share"

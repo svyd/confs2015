@@ -935,6 +935,9 @@ public abstract class BaseActivity extends ActionBarActivity implements
         if (ioHuntItem != null) {
             ioHuntItem.setVisible(!isRemote && !TextUtils.isEmpty(Config.IO_HUNT_PACKAGE_NAME));
         }
+        ioExtendedItem.setVisible(false);
+        mapItem.setVisible(false);
+        ioHuntItem.setVisible(false);
     }
 
     @Override
