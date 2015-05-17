@@ -110,6 +110,7 @@
                     android:layout_marginLeft="@dimen/keyline_2_session_detail"
                     android:layout_marginBottom="16dp"
                     android:layout_marginRight="16dp"
+                    android:visibility="invisible"
                     />
 
             <HorizontalScrollView android:id="@+id/session_tags_container"

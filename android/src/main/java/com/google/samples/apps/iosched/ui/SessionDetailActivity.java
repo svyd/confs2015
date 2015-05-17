@@ -483,7 +483,7 @@ public class SessionDetailActivity extends BaseActivity implements
                 Config.FEEDBACK_MILLIS_BEFORE_SESSION_END)
                 && !sDismissedFeedbackCard.contains(mSessionId)) {
             // show the "give feedback" card
-            showGiveFeedbackCard();
+            //showGiveFeedbackCard();
         }
 
         String timeHint = "";
@@ -672,7 +672,7 @@ public class SessionDetailActivity extends BaseActivity implements
         relatedVideosBlock.setVisibility(View.GONE);
 
         // Build links section
-        buildLinksSection(cursor);
+        //buildLinksSection(cursor);
 
         updateEmptyView();
 
