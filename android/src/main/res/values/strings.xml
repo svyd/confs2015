@@ -561,11 +561,11 @@
 
     <!-- Text of a card shown in the session explorer after I/O has started that asks the user if
     he wants to configure the WiFi. "Yes!" and "No, thanks" are the buttons shown in the card -->
-    <string name="question_setup_wifi_after_i_o_start">Google I/O is here! Would you like to configure the conference WiFi now?</string>
+    <string name="question_setup_wifi_after_i_o_start">JEEConf is here! Would you like to configure the conference WiFi now?</string>
 
     <!-- Text of a card shown in the session explorer before I/O has started that asks the user if
     he wants to configure the WiFi. "Yes!" and "No, thanks" are the buttons shown in the card -->
-    <string name="question_setup_wifi_before_i_o_start">Google I/O is coming up! Would you like to configure the conference WiFi now?</string>
+    <string name="question_setup_wifi_before_i_o_start">JEEConf is coming up! Would you like to configure the conference WiFi now?</string>
 
     <!-- Section title for videos related to a particular event session -->
     <string name="related_videos">Related Videos</string>

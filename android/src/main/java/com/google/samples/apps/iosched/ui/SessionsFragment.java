@@ -893,20 +893,20 @@ public class SessionsFragment extends Fragment implements
             LOGE(TAG, "Message card not found in UI (R.id.message_card).");
             return false;
         }
-        if (!PrefUtils.hasAnsweredLocalOrRemote(getActivity()) &&
+        /*if (!PrefUtils.hasAnsweredLocalOrRemote(getActivity()) &&
                 !TimeUtils.hasConferenceEnded(getActivity())) {
             // show the "in person" vs "remote" card
             setupLocalOrRemoteCard(card);
             return true;
-        } else if (WiFiUtils.shouldOfferToSetupWifi(getActivity(), true)) {
+        } else */if (WiFiUtils.shouldOfferToSetupWifi(getActivity(), true)) {
             // show wifi setup card
             setupWifiOfferCard(card);
             return true;
-        } else if (PrefUtils.shouldOfferIOExtended(getActivity(), true)) {
+        } /*else if (PrefUtils.shouldOfferIOExtended(getActivity(), true)) {
             // show the I/O extended card
             setupIOExtendedCard(card);
             return true;
-        } else {
+        }*/ else {
             card.setVisibility(View.GONE);
             return false;
         }
