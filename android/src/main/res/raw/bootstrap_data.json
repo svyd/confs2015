@@ -1710,22 +1710,22 @@
     },
     {
       "speakers": [
-        "kozhaev"
+        "kozhaiev"
       ],
       "description": "Xtext is a new framework for developing parsers for your DSL language linked with power of the Eclipse platform. During this talk I will show how advantages of this tool can help as to build powerful IDE for own DSL language during just one day.",
       "title": "How to write IDE for your DSL in one day",
       "url": "http://jeeconf.com/program/#ide-for-dsl",
-      "startTimestamp": "2015-05-23T08:00:00Z",
+      "startTimestamp": "2015-05-22T08:00:00Z",
       "tags": [
         "TOPIC_TOOLS_APPROACHES"
       ],
       "mainTag": "TOPIC_TOOLS_APPROACHES",
-      "id": "s45",
+      "id": "s451",
       "color": "#646464",
       "room": "track-e",
       "hashtag": "",
       "isLivestream": false,
-      "endTimestamp": "2015-05-23T08:45:00Z",
+      "endTimestamp": "2015-05-22T08:45:00Z",
       "captionsUrl": ""
     },
     {
