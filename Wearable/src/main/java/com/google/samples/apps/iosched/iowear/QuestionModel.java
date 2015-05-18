@@ -17,7 +17,7 @@
 package com.google.samples.apps.iosched.iowear;
 
 
-import com.google.samples.apps.iosched.R;
+import com.jeeconf2015.R;
 
 import android.content.Context;
 

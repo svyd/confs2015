@@ -22,7 +22,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.google.samples.apps.iosched.R;
+import com.jeeconf2015.R;
 
 /**
  * A simple activity to show that the process of collection and submission of a session feedback has

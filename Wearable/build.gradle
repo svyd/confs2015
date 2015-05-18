@@ -28,7 +28,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.google.samples.apps.iosched"
+        applicationId "com.jeeconf2015"
         minSdkVersion 20
         targetSdkVersion 20
         versionCode 1
