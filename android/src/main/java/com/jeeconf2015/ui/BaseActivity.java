@@ -754,7 +754,7 @@ public abstract class BaseActivity extends ActionBarActivity implements
                 return true;
 
             case R.id.menu_wifi:
-                WiFiUtils.showWiFiDialog(this);
+                //WiFiUtils.showWiFiDialog(this);
                 return true;
 
             case R.id.menu_i_o_hunt:
@@ -910,9 +910,10 @@ public abstract class BaseActivity extends ActionBarActivity implements
 
     protected void configureStandardMenuItems(Menu menu) {
         MenuItem wifiItem = menu.findItem(R.id.menu_wifi);
-        if (wifiItem != null && !WiFiUtils.shouldOfferToSetupWifi(this, false)) {
+        wifiItem.setVisible(false);
+        /*if (wifiItem != null && !WiFiUtils.shouldOfferToSetupWifi(this, false)) {
             wifiItem.setVisible(false);
-        }
+        }*/
 
         MenuItem debugItem = menu.findItem(R.id.menu_debug);
         if (debugItem != null) {

@@ -30,6 +30,7 @@
     <item android:id="@+id/menu_wifi"
         android:orderInCategory="98"
         android:title="@string/description_configure_wifi"
+        android:visible="false"
         iosched:showAsAction="never" />
 
     <item android:id="@+id/menu_i_o_hunt"
